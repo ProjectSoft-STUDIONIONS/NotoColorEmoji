@@ -8,7 +8,7 @@
 	"main": "Gruntfile.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"inst": "npm install && bower install",
+		"inst": "npm install",
 		"preinstall": "npm i -g less",
 		"build": "grunt -v"
 	},
