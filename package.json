@@ -1,7 +1,15 @@
 {
 	"name": "notocoloremoji",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Плагин подключения Emoji в админке EvolutionCMS",
+	"keywords": [
+		"plugin",
+		"emoji",
+		"utilities",
+		"manager",
+		"evolution-cms",
+		"evolutioncms"
+	],
 	"license": "GPL-3.0",
 	"author": "ProjectSoft <projectsoft2009@yandex.ru>",
 	"type": "commonjs",
