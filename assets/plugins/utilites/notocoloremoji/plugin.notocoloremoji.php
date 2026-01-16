@@ -8,6 +8,7 @@
  * @version      1.0.0
  * @package      evo
  * @internal     @events OnDocFormRender,OnManagerTopPrerender,OnManagerMainFrameHeaderHTMLBlock
+ * @internal     @properties 
  * @internal     @modx_category Utilites
  * @internal     @installset base
  * @internal     @disabled 0
