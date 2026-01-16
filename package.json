@@ -9,11 +9,10 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"inst": "npm install && bower install",
-		"preinstall": "npm i -g less pug-cli",
+		"preinstall": "npm i -g less",
 		"build": "grunt -v"
 	},
 	"dependencies": {
-		"crypto-js": "^4.2.0",
 		"grunt": "^1.6.1",
 		"grunt-autoprefixer": "^3.0.4",
 		"grunt-contrib-clean": "^2.0.1",

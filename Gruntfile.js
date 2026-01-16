@@ -3,12 +3,6 @@ module.exports = function(grunt) {
 	require('time-grunt')(grunt);
 	const fs = require('fs'),
 		PACK = grunt.file.readJSON('package.json'),
-		SHA1 = require("crypto-js/sha1"),
-		SHA = function(file) {
-			let txt = fs.readFileSync(file, 'utf-8');
-			let sh = SHA1(`${txt}`).toString();
-			return sh;
-		},
 		date = new  Date(),
 		year = date.getFullYear(),
 		month = String(date.getMonth() + 1).padStart(2, "0"),
