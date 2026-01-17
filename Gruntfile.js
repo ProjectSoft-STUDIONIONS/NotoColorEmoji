@@ -52,6 +52,21 @@ module.exports = function(grunt) {
 						'src/less/main.less'
 					],
 				}
+			},
+			tinymce4: {
+				options : {
+					compress: false,
+					ieCompat: false,
+					plugins: [],
+					modifyVars: {
+						fontpath: "/assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/fonts"
+					},
+				},
+				files : {
+					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css' : [
+						'src/less/main.less'
+					],
+				}
 			}
 		},
 		autoprefixer:{
@@ -66,6 +81,9 @@ module.exports = function(grunt) {
 					'assets/plugins/utilites/notocoloremoji/noto-color-emoji.css' : [
 						'assets/plugins/utilites/notocoloremoji/noto-color-emoji.css'
 					],
+					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css' : [
+						'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css'
+					],
 				}
 			}
 		},
@@ -79,6 +97,9 @@ module.exports = function(grunt) {
 					'assets/plugins/utilites/notocoloremoji/noto-color-emoji.min.css' : [
 						'assets/plugins/utilites/notocoloremoji/noto-color-emoji.css'
 					],
+					'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css' : [
+						'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/plugin.css'
+					],
 				}
 			}
 		},
@@ -90,6 +111,12 @@ module.exports = function(grunt) {
 						cwd: 'node_modules/noto-color-emoji/src/fonts',
 						src: ['*.*'],
 						dest: 'assets/plugins/utilites/notocoloremoji/fonts/',
+					},
+					{
+						expand: true,
+						cwd: 'node_modules/noto-color-emoji/src/fonts',
+						src: ['*.*'],
+						dest: 'assets/plugins/tinymce4/tinymce/plugins/notocoloremoji/fonts/',
 					},
 				]
 			}

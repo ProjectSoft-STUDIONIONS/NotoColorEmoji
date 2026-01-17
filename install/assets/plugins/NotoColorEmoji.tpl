@@ -16,7 +16,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-01-16
+ * @lastupdate   2026-01-17
  */
 
 /**
@@ -36,7 +36,7 @@
  * @license      https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji/blob/main/LICENSE GNU General Public License v3.0 (GPL-3.0)
  * @reportissues https://github.com/ProjectSoft-STUDIONIONS/NotoColorEmoji/issues
  * @author       Чернышёв Андрей aka ProjectSoft <projectsoft2009@yandex.ru>
- * @lastupdate   2026-01-16
+ * @lastupdate   2026-01-17
  */
 
 require MODX_BASE_PATH.'assets/plugins/utilites/notocoloremoji/plugin.notocoloremoji.php';
